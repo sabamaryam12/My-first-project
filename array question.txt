@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main(){
+const int SIZE=10;
+int arr[SIZE]={6,-24,31,81,89,71,12,13,15,16}	;
+int key,found=-1;
+cout<<"enter searching number";
+cin>>key;
+
+for(int i=0;i<SIZE;i++){
+	if(arr[i]==key){
+		found=i;
+		break;
+	}
+}
+	if(found==-1)
+	cout<<"not found"<<endl;	
+	else
+	cout<<"found"<<endl;	
+	return 0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
